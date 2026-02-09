@@ -1,6 +1,6 @@
 # ur5_apriltag_cube_swap
 
-**Authors:** Matteo Bino, Gianluca Caregnato, Federico Meneghetti  
+**Authors:** Matteo Bino (https://github.com/endlessDoomsayer), Gianluca Caregnato(https://github.com/CaregnatoGianluca), Federico Meneghetti (https://github.com/boorgoof)
 
 ## Project Overview
 
