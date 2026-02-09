@@ -4,8 +4,7 @@
 
 ## Project Overview
 
-This repository contains the implementation for the **Assignment 2**.
-The system is designed to autonomously detect, pick, and swap two cubes based on AprilTag tracking and color detection. 
+This repository contains the implementation of a system designed to autonomously detect, pick, and swap two cubes using AprilTag tracking and color detection.
 
 The main objectives of the project were:
 - estimating the pose and colors of 2 cubes by detecting two AprilTags from a fixed camera,
