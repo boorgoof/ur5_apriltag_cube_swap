@@ -1,0 +1,22 @@
+<launch>
+    <arg name="sim" default="true"/>
+
+    <include file="$(find-pkg-share ir_launch)/launch/assignment_2.launch.py">
+        <arg name="use_sim_time" value="$(var sim)"/>
+    </include>
+
+    <include file="$(find-pkg-share cubes_info)/launch/cubes_info.launch.xml">
+        <arg name="use_sim_time" value="$(var sim)"/>
+        <arg name="initial_delay" value="0.0"/>
+    </include>
+
+    <include file="$(find-pkg-share motion_controller)/launch/motion_controller.launch.py">
+        <arg name="use_sim_time" value="$(var sim)"/>
+        <arg name="initial_delay" value="2.0"/>
+    </include>
+
+    <include file="$(find-pkg-share logic_controller)/launch/robot_logic_controller.launch.xml">
+        <arg name="use_sim_time" value="$(var sim)"/>
+        <arg name="initial_delay" value="2.0"/>
+    </include>
+</launch>
